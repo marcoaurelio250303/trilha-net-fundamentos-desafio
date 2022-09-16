@@ -18,12 +18,12 @@ namespace DesafioFundamentos.Models
             veiculos.Add(Console.ReadLine());
         }
 
-        public void RemoverVeiculo()
+        public void RemoverVeiculo() 
         {
             Console.WriteLine("Digite a placa do veículo para remover:");
 
             // Pedir para o usuário digitar a placa e armazenar na variável placa
-            // *IMPLEMENTE AQUI*
+            // implementado
             string placa = "";
             placa = Console.ReadLine();
 
